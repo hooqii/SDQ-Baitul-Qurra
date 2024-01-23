@@ -17,7 +17,7 @@ export default function CommunicationStyles(){
                         <li className="flex gap-x-3">
                             <CheckCircleIcon className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                             <span>
-                                 <strong className="font-semibold text-gray-900">Context.</strong> Greek communication is a mix of high-context and
+                                <strong className="font-semibold text-gray-900">Context.</strong> Greek communication is a mix of high-context and
                                 low-context style. They often use non-verbal communication and read between the lines,
                                 characteristic of high-context cultures. However, they are also expressive and direct,
                                 typical of low-context cultures.

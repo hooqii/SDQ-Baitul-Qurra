@@ -8,7 +8,7 @@ const features = [
     name: "",
     description: (
       <>
-        Email SDQ Baitul Qurra' Abdya <br /> baitulqurraabdya@gmail.com
+        Email SDQ Baitul Qurra&apos; Abdya <br /> baitulqurraabdya@gmail.com
       </>
     ),
     href: "mailto:baitulqurraabdya@gmail.com",
@@ -18,8 +18,8 @@ const features = [
     name: "",
     description: (
       <>
-        Youtube SDQ Baitul Qurra' Abdya
-        <br /> BAITUL QURRA' ABDYA
+        Youtube SDQ Baitul Qurra&apos; Abdya
+        <br /> BAITUL QURRA&apos; ABDYA
       </>
     ),
     href: "http://www.leadershipcrossroads.com/mat/cou/Greece.pdf",
@@ -29,7 +29,7 @@ const features = [
     name: "",
     description: (
       <>
-        Instagram SDQ Baitul Qurra' Abdya
+        Instagram SDQ Baitul Qurra&apos; Abdya
         <br />
         @sdq_baitulqurra
       </>
@@ -57,7 +57,7 @@ export default function References() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Sosial Media SDQ Baitul Qurra' Abdya
+            Sosial Media SDQ Baitul Qurra&apos; Abdya
           </h2>
           <p className="mt-6 text-lg leading-8 text-gray-600">
             Follow sosial media kami untuk mendapatkan informasi terbaru

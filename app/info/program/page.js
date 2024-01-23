@@ -156,7 +156,7 @@ export default function Business() {
                 <p className="mt-6 text-xl leading-8 text-gray-700">
                   Program Unggulan SDQ Baitul Qurra dirancang untuk memberikan
                   pengalaman pendidikan holistik dan fokus pada tahfidz
-                  Al-Qur'an. Berikut adalah deskripsi singkat tentang program
+                  Al-Qur&apos;an. Berikut adalah deskripsi singkat tentang program
                   unggulan kami:
                 </p>
               </div>
@@ -192,7 +192,7 @@ export default function Business() {
                         Tahfidz Target Hafalan SDQ Baitul Qurra 6 Juz
                       </strong>{" "}
                       <br />
-                      Program ini menekankan pada hafalan Al-Qur'an dengan
+                      Program ini menekankan pada hafalan Al-Qur&apos;an dengan
                       target 6 Juz bagi siswa SDQ Baitul Qurra, menciptakan
                       lingkungan yang mendukung pengembangan kemampuan tahfidz
                       mereka.
@@ -211,7 +211,7 @@ export default function Business() {
                       Menggunakan metode pembelajaran yang teruji seperti
                       Tibyan, Ziyadah, dan Talaggi untuk memastikan efektivitas
                       dalam mengajar dan memahamkan siswa terhadap ayat-ayat
-                      Al-Qur'an.
+                      Al-Qur&apos;an.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
@@ -225,7 +225,7 @@ export default function Business() {
                       </strong>{" "}
                       <br />
                       Memberikan penguasaan bahasa Arab sebagai kunci pemahaman
-                      Al-Qur'an, sementara tetap memfasilitasi pengembangan
+                      Al-Qur&apos;an, sementara tetap memfasilitasi pengembangan
                       kemampuan berkomunikasi dalam skala internasional.
                     </span>
                   </li>
@@ -236,12 +236,12 @@ export default function Business() {
                     />
                     <span>
                       <strong className="font-semibold text-gray-900">
-                        Sains Qur'an (Ilmu Pengetahuan Alam berdasarkan
-                        Al-Qur'an)
+                        Sains Qur&apos;an (Ilmu Pengetahuan Alam berdasarkan
+                        Al-Qur&apos;an)
                       </strong>{" "}
                       <br />
                       Menyelaraskan pendidikan sains dengan prinsip-prinsip
-                      Al-Qur'an, menggali kebijaksanaan ilmiah yang terkandung
+                      Al-Qur&apos;an, menggali kebijaksanaan ilmiah yang terkandung
                       dalam ayat-ayat suci.
                     </span>
                   </li>
@@ -257,7 +257,7 @@ export default function Business() {
                       <br />
                       Membentuk karakter kepemimpinan melalui pembelajaran
                       aktif, memberikan penekanan pada nilai-nilai islami dan
-                      etika kepemimpinan yang dicontohkan dalam Al-Qur'an.
+                      etika kepemimpinan yang dicontohkan dalam Al-Qur&apos;an.
                     </span>
                   </li>
                   <li className="flex gap-x-3">
@@ -286,7 +286,7 @@ export default function Business() {
                       </strong>{" "}
                       <br />
                       Menyelenggarakan acara khusus untuk memperkuat peran orang
-                      tua sebagai pendidik, dengan program Tahsin Al-Qur'an
+                      tua sebagai pendidik, dengan program Tahsin Al-Qur&apos;an
                       orang tua hebat dan Kajian Orang Tua Hebat.
                     </span>
                   </li>

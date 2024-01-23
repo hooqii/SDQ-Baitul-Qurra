@@ -20,10 +20,10 @@ export default function General() {
                 Tentang Sekolah
               </p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                SDQ Baitul Qurra' Abdya
+                SDQ Baitul Qurra&apos; Abdya
               </h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                Mendidik para penghafal Al-Qur'an dan Hadis, berpikir logis,
+                Mendidik para penghafal Al-Qur&apos;an dan Hadis, berpikir logis,
                 beradab dan beradat, serta memiliki jiwa kepemimpinan yang
                 berlandaskan kepada Al-Quran dan Sunnah.
               </p>
@@ -118,9 +118,9 @@ export default function General() {
                 Visi & Misi
               </h4>
               <p className="mt-8">
-                Melahirkan generasi umat yang mampu menghafal Al-Qur'an, berilmu
+                Melahirkan generasi umat yang mampu menghafal Al-Qur&apos;an, berilmu
                 berakhlak mulia dan berjiwa leadership. <br /> <br />
-                1. Menyelenggarakan kegiatan yang berlandaskan Al-Qur'an dan
+                1. Menyelenggarakan kegiatan yang berlandaskan Al-Qur&apos;an dan
                 Sunnah. <br /> 2. Menyelenggarakan kegiatan peningkatan
                 kemampuan Bahasa Arab bagi murid. <br /> 3. Menyelenggarakan
                 kegiatan yang mengarah pada pembentukan karakter sesuai tuntunan
@@ -131,7 +131,7 @@ export default function General() {
               </p>
               <div className="mt-8 lg:sticky">
                 <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-                  Simbol Yayasan Pendidikan Terpadu Qur'an Baitul Qurra' Abdya
+                  Simbol Yayasan Pendidikan Terpadu Quran Baitul Qurra&apos; Abdya
                 </h3>
                 <ul className="mt-8 space-y-8 text-gray-600">
                   <li className="flex gap-x-3 ">
@@ -139,7 +139,7 @@ export default function General() {
                       height={500}
                       width={500}
                       src={"/img-logo.png"}
-                      alt="Logo yptq Baitul Qurra'"
+                      alt="Logo yptq Baitul Qurra&apos;"
                       className={"w-50 h-25"}
                     />
                   </li>
