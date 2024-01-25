@@ -35,7 +35,7 @@ export default function Home() {
                 href="/info/beranda"
                 className="rounded-md bg-[#055EB1] px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-[#055EB1] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#FFF9F9]"
               >
-                Get Started
+                بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيْم
               </Link>
             </div>
           </div>

@@ -1,11 +1,10 @@
 import React from "react";
-import { InboxIcon } from "@heroicons/react/24/outline";
 import { FaInstagram, FaYoutube, FaWhatsapp } from "react-icons/fa";
 import { IoMail } from "react-icons/io5";
 
-const features = [
+const socials = [
   {
-    name: "",
+    name: "Email",
     description: (
       <>
         Email SDQ Baitul Qurra&apos; Abdya <br /> baitulqurraabdya@gmail.com
@@ -15,7 +14,7 @@ const features = [
     icon: IoMail,
   },
   {
-    name: "",
+    name: "Youtube",
     description: (
       <>
         Youtube SDQ Baitul Qurra&apos; Abdya
@@ -26,7 +25,7 @@ const features = [
     icon: FaYoutube,
   },
   {
-    name: "",
+    name: "Instagram",
     description: (
       <>
         Instagram SDQ Baitul Qurra&apos; Abdya
@@ -38,7 +37,7 @@ const features = [
     icon: FaInstagram,
   },
   {
-    name: "",
+    name: "Whatsapp",
     description: (
       <>
         085260957197 (Ust. Nuzul Fazmi, S.Stat)
@@ -64,36 +63,40 @@ export default function References() {
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
-          <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
-            {features.map((feature) => (
-              <div key={feature.name} className="flex flex-col">
-                <dt className="text-base font-semibold leading-7 text-gray-900">
+          <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+            {socials.map((socials) => (
+              <div key={socials.name} className="flex flex-col">
+                <div className="text-base font-semibold leading-7 text-gray-900">
                   <div className="mb-6 flex h-10 w-10 items-center justify-center rounded-lg bg-blue-600">
-                    <feature.icon
+                    <socials.icon
                       className="h-6 w-6 text-white"
                       aria-hidden="true"
                     />
                   </div>
-                  {feature.name}
-                </dt>
-                <dd className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600 overflow-auto">
-                  <p className="flex-auto">{feature.description}</p>
+                  {socials.name}
+                </div>
+                <div className="mt-1 flex flex-auto flex-col text-base leading-7 text-gray-600 overflow-auto">
+                  <p className="flex-auto">{socials.description}</p>
                   <p className="mt-3">
                     <a
-                      href={feature.href}
+                      href={socials.href}
                       className="text-sm font-semibold leading-6 text-blue-600"
                     >
-                      {feature.icon === FaWhatsapp ? (
-                        <span>Hubungi Kami</span>
+                      {socials.icon === FaWhatsapp ? (
+                        <span>Hubungi Whatsapp</span>
+                      ) : socials.icon === FaYoutube ? (
+                        <span>Subscribe Youtube</span>
+                      ) : socials.icon === IoMail ? (
+                        <span>Kirim Email</span>
                       ) : (
-                        <span>Follow</span>
+                        <span>Follow Instagram</span>
                       )}
                     </a>
                   </p>
-                </dd>
+                </div>
               </div>
             ))}
-          </dl>
+          </div>
         </div>
       </div>
     </div>

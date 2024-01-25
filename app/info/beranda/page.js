@@ -11,7 +11,7 @@ import {
 import { FaUserFriends } from "react-icons/fa";
 export default function General() {
   return (
-    <div className="relative isolate overflow-hidden px-6  sm:py-32 lg:overflow-visible lg:pt-12">
+    <div className="relative isolate overflow-hidden px-6 sm:py-32 lg:overflow-visible lg:pt-12">
       <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
@@ -23,28 +23,28 @@ export default function General() {
                 SDQ Baitul Qurra&apos; Abdya
               </h1>
               <p className="mt-6 text-xl leading-8 text-gray-700">
-                Mendidik para penghafal Al-Qur&apos;an dan Hadis, berpikir logis,
-                beradab dan beradat, serta memiliki jiwa kepemimpinan yang
-                berlandaskan kepada Al-Quran dan Sunnah.
+                Mendidik para penghafal Al-Qur&apos;an dan Hadis, berpikir
+                logis, beradab dan beradat, serta memiliki jiwa kepemimpinan
+                yang berlandaskan kepada Al-Quran dan Sunnah.
               </p>
             </div>
           </div>
         </div>
-        <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+        <div className="lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <Image
             width={500}
             height={500}
-            className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+            className="rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
             src="/bg-school.jpg"
             alt=""
           />
         </div>
-        <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-2 lg:mt-56 lg:overflow-hidden">
+        <div className="lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-2 lg:mt-60 lg:overflow-hidden">
           <Image
             width={500}
             height={500}
-            className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-            src="/bg-murid-guru.jpeg"
+            className="rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
+            src="/guru-murid-0.png"
             alt=""
           />
         </div>
@@ -74,7 +74,7 @@ export default function General() {
                     <strong className="font-semibold text-gray-900">
                       Jumlah Pengajar.{" "}
                     </strong>{" "}
-                    Sekitar 24 Guru (2024 est.)
+                    Sekitar 17 Guru (2024 est.)
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -86,7 +86,7 @@ export default function General() {
                     <strong className="font-semibold text-gray-900">
                       Jumlah Siswa.{" "}
                     </strong>{" "}
-                    1,414 (as of 2024)
+                    86 (as of 2024)
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -118,10 +118,10 @@ export default function General() {
                 Visi & Misi
               </h4>
               <p className="mt-8">
-                Melahirkan generasi umat yang mampu menghafal Al-Qur&apos;an, berilmu
-                berakhlak mulia dan berjiwa leadership. <br /> <br />
-                1. Menyelenggarakan kegiatan yang berlandaskan Al-Qur&apos;an dan
-                Sunnah. <br /> 2. Menyelenggarakan kegiatan peningkatan
+                Melahirkan generasi umat yang mampu menghafal Al-Qur&apos;an,
+                berilmu berakhlak mulia dan berjiwa leadership. <br /> <br />
+                1. Menyelenggarakan kegiatan yang berlandaskan Al-Qur&apos;an
+                dan Sunnah. <br /> 2. Menyelenggarakan kegiatan peningkatan
                 kemampuan Bahasa Arab bagi murid. <br /> 3. Menyelenggarakan
                 kegiatan yang mengarah pada pembentukan karakter sesuai tuntunan
                 islam dan adat istiadat masyarakat Aceh. <br /> 4.
@@ -131,15 +131,16 @@ export default function General() {
               </p>
               <div className="mt-8 lg:sticky">
                 <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-                  Simbol Yayasan Pendidikan Terpadu Quran Baitul Qurra&apos; Abdya
+                  Simbol Yayasan Pendidikan Terpadu Quran Baitul Qurra&apos;
+                  Abdya
                 </h3>
-                <ul className="mt-8 space-y-8 text-gray-600">
+                <ul className="mt-8 space-y-8 mb-32 lg:mb-0 text-gray-600">
                   <li className="flex gap-x-3 ">
                     <Image
                       height={500}
                       width={500}
                       src={"/img-logo.png"}
-                      alt="Logo yptq Baitul Qurra&apos;"
+                      alt="Logo yptq Baitul Qurra'"
                       className={"w-50 h-25"}
                     />
                   </li>
@@ -180,7 +181,7 @@ export default function General() {
                       famous being the Parthenon.
                     </span>
                   </li>
-                  <li className="flex gap-x-3 ">
+                  <li className="flex gap-x-3 mb-8 ">
                     <div className="w-90 h-40 relative overflow-visible">
                       <iframe
                         width="560"
@@ -198,7 +199,7 @@ export default function General() {
           </div>
         </div>
         <div
-          className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+          className="absolute pb-10 inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
           aria-hidden="true"
         >
           <div
