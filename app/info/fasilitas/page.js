@@ -150,26 +150,26 @@ export default function Economia() {
           ))}
         </dl>
       </div>
-      <div className="flex mt-14 items-start justify-center gap-6 flex-wrap mx-20">
-        <div className="flex flex-col gap-5 lg:gap-10 items-start mt-5 justify-start lg:order-first">
+      <div className="flex mt-14 items-start justify-center gap-6 flex-wrap mx-10">
+        <div className="flex flex-col gap-5 lg:gap-10 items-start mt-5 justify-start">
           <Image
             src={"/fasilitas-sains.png"}
             alt="Image"
-            className="max-w-2xl rounded-xl shadow-xl ring-1 ring-gray-400/10"
+            className="flex lg:max-w-2xl rounded-xl shadow-xl ring-1 ring-gray-400/10"
             width={2432}
             height={1442}
           />
           <Image
             src={"/fasilitas-kolam-renang.jpeg"}
             alt="Image"
-            className="max-w-2xl rounded-xl shadow-xl ring-1 ring-gray-400/10"
+            className="flex lg:max-w-2xl rounded-xl shadow-xl ring-1 ring-gray-400/10"
             width={2432}
             height={1442}
           />
           <Image
             src={"/labolatorium-sains.png"}
             alt="Image"
-            className="max-w-2xl rounded-xl shadow-xl ring-1 ring-gray-400/10"
+            className="flex lg:max-w-2xl rounded-xl shadow-xl ring-1 ring-gray-400/10"
             width={2432}
             height={1442}
           />

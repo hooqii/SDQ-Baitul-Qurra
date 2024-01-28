@@ -141,6 +141,39 @@ export default function CommunicationStyles() {
             Karnaval murid SDQ Baitul Qurra&apos; Abdya.
           </figcaption>
         </figure>
+        <figure className="mt-16">
+          <Image
+            height={3456}
+            width={5184}
+            className="aspect-video rounded-xl bg-gray-50 object-cover"
+            src={"/fashion-show.jpeg"}
+            alt=""
+          />
+          <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
+            <InformationCircleIcon
+              className="mt-0.5 h-5 w-5 flex-none text-gray-300"
+              aria-hidden="true"
+            />
+            Lomba fashion show murid SDQ Baitul Qurra&apos; Abdya.
+          </figcaption>
+        </figure>
+        <figure className="mt-16">
+          <Image
+            height={3456}
+            width={5184}
+            className="aspect-video rounded-xl bg-gray-50 object-cover"
+            src={"/batminton.png"}
+            alt=""
+          />
+          <figcaption className="mt-4 flex gap-x-2 text-sm leading-6 text-gray-500">
+            <InformationCircleIcon
+              className="mt-0.5 h-5 w-5 flex-none text-gray-300"
+              aria-hidden="true"
+            />
+            Pertandingan batminton murid SDQ Baitul Qurra&apos; Abdya.
+          </figcaption>
+        </figure>
+        
       </div>
     </div>
   );

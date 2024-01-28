@@ -21,16 +21,14 @@ export default function HotTopic() {
   return (
     <div className="relative">
       <div className="mx-auto max-w-7xl lg:flex lg:justify-between lg:px-8 xl:justify-end">
-        <div className="lg:flex lg:w-1/2 lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
-          <div className="flex h-80 lg:-ml-8 lg:h-auto lg:w-full lg:grow xl:ml-0">
-            <Image
-              className="absolute inset-0 rounded-xl max-w-3xl bg-gray-50"
-              height={1406}
-              width={2107}
-              src={"/images-3.png"}
-              alt=""
-            />
-          </div>
+        <div className="flex flex-wrap justify-center lg:flex lg:w-1/2 lg:shrink lg:grow-0 xl:absolute xl:inset-y-0 xl:right-1/2 xl:w-1/2">
+          <Image
+            className="inset-0 justify-center w-96 lg:w-full rounded-xl max-w-3xl bg-gray-50 object-cover"
+            height={5000}
+            width={5000}
+            src={"/belajar.png"}
+            alt=""
+          />
         </div>
         <div className="px-6 lg:contents">
           <div className="mx-auto max-w-2xl pb-24 pt-2 sm:pb-32 sm:pt-20 lg:ml-8 lg:mr-0 lg:w-full lg:max-w-lg lg:flex-none lg:pt-32 xl:w-1/2">
@@ -75,8 +73,8 @@ export default function HotTopic() {
               </p>
             </div>
             <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-                KONTAK PENDAFTARAN
-              </h2>
+              KONTAK PENDAFTARAN
+            </h2>
             <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:max-w-none">
               <div className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
                 {whatsapp.map((whatsapp) => (

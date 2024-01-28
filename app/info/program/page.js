@@ -211,9 +211,10 @@ export default function Business() {
                   Proses program belajar yang efektif
                 </h2>
                 <p className="mt-6">
-                  Berikut adalah proses pembelajaran yang efektif untuk Program Unggulan di SDQ
-                  Baitul Qurra dengan mengintegrasikan prinsip-prinsip
-                  pendidikan holistik dan fokus pada tahfidz Al-Qur&apos;an.
+                  Berikut adalah proses pembelajaran yang efektif untuk Program
+                  Unggulan di SDQ Baitul Qurra dengan mengintegrasikan
+                  prinsip-prinsip pendidikan holistik dan fokus pada tahfidz
+                  Al-Qur&apos;an.
                 </p>
               </div>
             </div>
@@ -263,7 +264,8 @@ export default function Business() {
           SDQ Baitul Qurra&apos; Abdya
         </h2>
         <p className="mt-6 text-lg leading-8 text-gray-600">
-          Here are some tips to help you close the deal.
+          Menyemai iman, menghafal ayat, membentuk cahaya Al-Qur&apos;an. Pendidikan
+          yang membangun generasi penuh cinta kepada Allah.
         </p>
       </div>
     </div>

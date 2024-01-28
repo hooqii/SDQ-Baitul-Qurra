@@ -186,6 +186,7 @@ export default function General() {
                       <iframe
                         width="560"
                         height="315"
+                        className="w-560 h315"
                         src="https://www.youtube.com/embed/JylxebGPhc8"
                         title="YouTube video player"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
