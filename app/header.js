@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import Image from 'next/image'
+import Image from "next/image";
 
 const navigation = [
   { name: "Beranda", href: "/info/beranda" },
@@ -13,9 +13,9 @@ const navigation = [
   { name: "Pendaftaran", href: "/info/pendaftaran" },
   { name: "Sosial Media", href: "/info/social-media" },
 ];
+
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   return (
     <header className="inset-x-0 top-0 z-50">
       <nav
@@ -27,7 +27,13 @@ export default function Header() {
             href=""
             className="flex items-center gap-1 font-semibold -m-1.5 p-1.5"
           >
-            <Image width={"100"} height={"100"} className="h-14 w-auto" src={"/img-logo.png"} alt="" />
+            <Image
+              width={"100"}
+              height={"100"}
+              className="h-14 w-auto"
+              src={"/img-logo.png"}
+              alt=""
+            />
             <p>Baitul Qurra&apos;</p>
           </Link>
         </div>
@@ -84,6 +90,7 @@ export default function Header() {
                   <Link
                     key={item.name}
                     href={item.href}
+                    onClick={() => setMobileMenuOpen(false)}
                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                   >
                     {item.name}
