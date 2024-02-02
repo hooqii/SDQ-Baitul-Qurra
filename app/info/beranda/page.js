@@ -151,10 +151,14 @@ export default function General() {
                     />
                     <span>
                       <strong className="font-semibold text-gray-900">
-                        Shield/Coat of Arms.
+                        Logo Yayasan Pendidikan Tahfidz Qurr&apos;an Abdya
                       </strong>{" "}
-                      The national emblem of Greece features a blue escutcheon
-                      with a white cross surrounded by two laurel branches.
+                      Berbentuk segi delapan dengan warna dasar hijau. Di
+                      dalamnya terdapat tulisan &quot;Yayasan Pendidikan
+                      Terpadu Al-Qur&apos;an Baitul Qur&apos;an Aceh Barat
+                      Daya&quot; berwarna putih. Logo ini melambangkan bahwa
+                      yayasan ini bergerak di bidang pendidikan Al-Qur&apos;an
+                      dan berada di Aceh Barat Daya.
                     </span>
                   </li>
                   <li className="flex gap-x-3 ">
@@ -173,12 +177,12 @@ export default function General() {
                     />
                     <span>
                       <strong className="font-semibold text-gray-900">
-                        Acropolis.
+                        Logo SDQ Baitul Qurra&apos; Abdya.
                       </strong>{" "}
-                      An ancient citadel located on a rocky outcrop above the
-                      city of Athens, containing the remains of several ancient
-                      buildings of great historical significance, the most
-                      famous being the Parthenon.
+                      berbentuk seperti daun yang terdiri dari tiga warna, yaitu
+                      merah, kuning, dan hijau. Logo ini melambangkan bahwa
+                      sekolah ini bergerak di bidang pendidikan Al-Qur&apos;an
+                      dan berada di Aceh Barat Daya.
                     </span>
                   </li>
                   <li className="flex gap-x-3 mb-8 ">

@@ -3,7 +3,6 @@ import Image from "next/image";
 import {
   GlobeAsiaAustraliaIcon,
   GlobeAmericasIcon,
-  BanknotesIcon,
   CloudArrowUpIcon,
   ServerIcon,
 } from "@heroicons/react/20/solid";
@@ -20,22 +19,22 @@ import { GiHealthNormal } from "react-icons/gi";
 
 const features = [
   {
-    name: "Main Exports.",
+    name: "Fasilitas Belajar.",
     description:
-      "Refined petroleum, packaged medicines, aluminum plating, cotton, cheese, copper piping (2021)",
+      "Fasilitas yang mendukung para murid menghafal Alqur'an dengan linkungan yang nyaman dan bersih",
     icon: GlobeAsiaAustraliaIcon,
   },
   {
-    name: "Main Imports.",
+    name: "Fasilitas Bermain.",
     description:
-      "Crude petroleum, refined petroleum, packaged medicines, cars, ships (2019)",
+      "Fasilitas luar ruangan yang nyaman agar muird dapat bermain guna mengembangkan kreativitas anak",
     icon: GlobeAmericasIcon,
   },
   {
-    name: "Import Partners.",
+    name: "Fasilitas Olahraga.",
     description:
-      "Germany 11%, China 9%, Italy 8%, Iraq 7%, Russia 6%, Netherlands 5% (2019)",
-    icon: BanknotesIcon,
+      "Fasilitas untuk kegiatan olahraga guna mendukung kesehatan dan kebugaran jasmani para murid",
+    icon: GlobeAsiaAustraliaIcon,
   },
 ];
 
